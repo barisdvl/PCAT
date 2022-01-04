@@ -9,7 +9,7 @@ const photoController = require('./controllers/photoController');
 const pageController = require('./controllers/pageController');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 mongoose.connect('mongodb+srv://barisd:RdRPgrTNiTr2Bw6@pcat0.sa5si.mongodb.net/pcat_test_db?retryWrites=true&w=majority')
 .then(()=>{
