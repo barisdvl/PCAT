@@ -41,7 +41,7 @@ h2, p { color: #666666; }
 .tm-logo-container {
     display: block;
     padding: 30px;
-    width: 320px;
+    width: 160px;
     height: 160px;
 }
 
@@ -170,23 +170,23 @@ h2, p { color: #666666; }
 }
 
 .tm-btn-cta:before { font-size: 180%; }
-.tm-btn-download:before { font-size: 120%; }
+.tm-btn-update:before { font-size: 120%; }
 .tm-btn-submit:before { font-size: 120%; }
 .tm-icon-down:before { content: '\f078'; }
-.tm-icon-download:before { content: '\f019'; }
+.tm-icon-update:before { content: '\f019'; }
 .tm-icon-submit:before { content: '\f1d8'; }
 .tm-icon-submit:hover:before { top: 18px; }
 .tm-btn-cta:hover { color: white; }
 
-.tm-btn-download:hover,
-.tm-btn-download:focus,
+.tm-btn-update:hover,
+.tm-btn-update:focus,
 .tm-btn-submit:hover,
 .tm-btn-submit:focus {
     color: white;
     background-color: #3399CC;
 }
 
-.tm-btn-download span { padding-top: 10px; }
+.tm-btn-update span { padding-top: 10px; }
 .tm-btn-small { 
     padding: 10.5px 35px;
     font-size: 1.2rem; 
@@ -333,7 +333,7 @@ h2, p { color: #666666; }
 .tm-text-link { color: #3399CC; }
 
 .tm-likes-box,
-.tm-btn-download {
+.tm-btn-Update {
     width: 280px;
     height: 60px;
 }
