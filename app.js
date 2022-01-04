@@ -11,7 +11,7 @@ const pageController = require('./controllers/pageController');
 const app = express();
 const port = process.env.PORT || 5000;
 
-mongoose.connect('mongodb+srv://barisd:RdRPgrTNiTr2Bw6@pcat0.sa5si.mongodb.net/pcat_test_db?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://barisd:<password>@pcat0.sa5si.mongodb.net/pcat_test_db?retryWrites=true&w=majority')
 .then(()=>{
   console.log("DB CONNECTED.")
 }).catch((err) => {
