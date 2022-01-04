@@ -11,7 +11,12 @@ const pageController = require('./controllers/pageController');
 const app = express();
 const port = 3000;
 
-mongoose.connect('mongodb://localhost/pcat-test-db');
+mongoose.connect('mongodb+srv://barisd:RdRPgrTNiTr2Bw6@pcat0.sa5si.mongodb.net/pcat_test_db?retryWrites=true&w=majority')
+.then(()=>{
+  console.log("DB CONNECTED.")
+}).catch((err) => {
+  console.log(err)
+})
 
 //TEMPLATE ENGINE
 app.set('view engine', 'ejs');
